@@ -4,7 +4,7 @@ jobs:
   run:
     runs-on: [ubuntu-latest]
     container: docker://dvcorg/cml-py3:latest
-     steps:
+    steps:
       - name: cml_run
         uses: actions/checkout@v2 
         env:
